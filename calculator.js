@@ -32,7 +32,7 @@ var bmi = weight / (height * height);
 res.send("Your BMI is: " + bmi);
 });
 
-app.listen(3000, function() {
+app.listen(3200, function() {
     console.log("Example app listening on port");
   });
   
